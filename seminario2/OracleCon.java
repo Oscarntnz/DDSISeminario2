@@ -15,8 +15,8 @@ public class OracleCon {
           */
          // create the connection object
          String url = "jdbc:oracle:thin:@oracle0.ugr.es:1521/practbd.oracle0.ugr.es";
-         String usr = "x5943758";
-         String pwd = "x5943758";
+         String usr = "x7475341";
+         String pwd = "x7475341";
          Connection con = DriverManager.getConnection(url, usr, pwd);
 
          
