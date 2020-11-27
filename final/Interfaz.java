@@ -40,6 +40,7 @@ public class Interfaz {
          System.out.println("Conexión establecida correctamente");
       } catch (SQLException e) {
          System.err.println("Algo ha ido mal estableciendo la conexión");
+				 System.exit(0);
       }
    }
 
